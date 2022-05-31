@@ -1,0 +1,68 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test01",
+      "children" : [ {
+        "name" : "Test01",
+        "children" : [ {
+          "name" : "test01[case0]",
+          "uid" : "959eb12822630eb8",
+          "parentUid" : "5a4311e3588096e25454e1bf816fdfa9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1653984348743,
+            "stop" : 1653984348861,
+            "duration" : 118
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'path': '/api/sys/login', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'param_type': 'json', 'params': {'mobile': '13800000002', 'password': '123456'}, 'expect': {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '02238bdc-da48-4616-8715-8c7159235b2f'}, 'x_y': [2, 12]}" ]
+        }, {
+          "name" : "test01[case1]",
+          "uid" : "96c08e96f24d4cb",
+          "parentUid" : "5a4311e3588096e25454e1bf816fdfa9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1653984348864,
+            "stop" : 1653984348975,
+            "duration" : 111
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'path': '/api/sys/login', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'param_type': 'json', 'params': {'mobile': 'itheima', 'password': '123456'}, 'expect': {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}, 'x_y': [6, 12]}" ]
+        }, {
+          "name" : "test01[case2]",
+          "uid" : "5153fc9d61e0b581",
+          "parentUid" : "5a4311e3588096e25454e1bf816fdfa9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1653984348978,
+            "stop" : 1653984349072,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'path': '/api/sys/login', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'param_type': 'json', 'params': {'mobile': '13800000002', 'password': ''}, 'expect': {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}, 'x_y': [7, 12]}" ]
+        } ],
+        "uid" : "5a4311e3588096e25454e1bf816fdfa9"
+      } ],
+      "uid" : "f85c9ff8ac89695a8efc8b34859cbece"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}

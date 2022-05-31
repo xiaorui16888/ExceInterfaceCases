@@ -1,0 +1,68 @@
+[
+    {
+        "path": "/api/sys/login",
+        "method": "post",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "param_type": "json",
+        "params": {
+            "mobile": "13800000002",
+            "password": "123456"
+        },
+        "expect": {
+            "success": true,
+            "code": 10000,
+            "message": "操作成功！",
+            "data": "02238bdc-da48-4616-8715-8c7159235b2f"
+        },
+        "x_y": [
+            2,
+            12
+        ]
+    },
+    {
+        "path": "/api/sys/login",
+        "method": "post",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "param_type": "json",
+        "params": {
+            "mobile": "itheima",
+            "password": "123456"
+        },
+        "expect": {
+            "success": false,
+            "code": 20001,
+            "message": "用户名或密码错误",
+            "data": null
+        },
+        "x_y": [
+            6,
+            12
+        ]
+    },
+    {
+        "path": "/api/sys/login",
+        "method": "post",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "param_type": "json",
+        "params": {
+            "mobile": "13800000002",
+            "password": ""
+        },
+        "expect": {
+            "success": false,
+            "code": 20001,
+            "message": "用户名或密码错误",
+            "data": null
+        },
+        "x_y": [
+            7,
+            12
+        ]
+    }
+]

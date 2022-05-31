@@ -1,0 +1,79 @@
+{
+  "uid" : "5153fc9d61e0b581",
+  "name" : "test01[case2]",
+  "fullName" : "scripts.test01.Test01#test01",
+  "historyId" : "180ce61421027dbb2b09d4ea155720b3",
+  "time" : {
+    "start" : 1653984348978,
+    "stop" : 1653984349072,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6158f61b61c96d20",
+      "name" : "log",
+      "source" : "6158f61b61c96d20.txt",
+      "type" : "text/plain",
+      "size" : 515
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test01"
+  }, {
+    "name" : "host",
+    "value" : "XTZJ-20211101WA"
+  }, {
+    "name" : "thread",
+    "value" : "312-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'path': '/api/sys/login', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'param_type': 'json', 'params': {'mobile': '13800000002', 'password': ''}, 'expect': {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}, 'x_y': [7, 12]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5153fc9d61e0b581.json",
+  "parameterValues" : [ "{'path': '/api/sys/login', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'param_type': 'json', 'params': {'mobile': '13800000002', 'password': ''}, 'expect': {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}, 'x_y': [7, 12]}" ]
+}

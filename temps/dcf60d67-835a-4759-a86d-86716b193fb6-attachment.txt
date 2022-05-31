@@ -1,0 +1,4 @@
+INFO     root:test01.py:27 正在执行调用执行数据：{'path': '/api/sys/login', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'param_type': 'json', 'params': {'mobile': '13800000002', 'password': '123456'}, 'expect': {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '02238bdc-da48-4616-8715-8c7159235b2f'}, 'x_y': [2, 12]}
+INFO     root:api.py:57 正在调用运行接口方法
+INFO     root:api.py:39 正在调用post请求方法
+INFO     root:common_assert.py:16 正在调用断言公共方法
